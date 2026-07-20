@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, sans-serif;
+    background:linear-gradient(180deg,#f8fafc,#edf3f8);
+    margin:0;
+    padding:20px;
+}
+
+header{
+    text-align:center;
+}
+
+h1{
+    color:#222;
+    margin-bottom:5px;
+}
+
+p{
+    color:#666;
+    margin-bottom:20px;
+}
+
+input{
+    width:90%;
+    max-width:400px;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    font-size:16px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}.produk-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    margin-top:30px;
+}
+
+.produk{
+    background:linear-gradient(145deg,#ffffff,#f8fafc);
+    border-radius:18px;
+    overflow:hidden;
+    text-decoration:none;
+    color:#222;
+
+    border:1px solid rgba(255,255,255,.8);
+
+    box-shadow:
+        0 6px 14px rgba(0,0,0,.06),
+        0 14px 30px rgba(0,0,0,.08);
+
+    transition:.3s ease;
+}
+
+.produk img{
+    width:100%;
+    display:block;
+}
+
+.produk p{
+    text-align:center;
+    font-weight:bold;
+    padding:10px;
+    margin:0;
+}.produk{
+    text-decoration:none;
+    color:black;
+    transition:0.2s;
+}
+
+.produk:active{
+    transform:translateY(-4px) scale(.98);
+
+    box-shadow:
+        0 12px 24px rgba(0,0,0,.08),
+        0 22px 40px rgba(0,0,0,.12);
+}
+.produk img{
+    width:100%;
+    display:block;
+    border-radius:14px;
+}
+
+.produk:active img{
+    transform:scale(.95);
+}..banner{
+    margin-bottom:25px;
+}
+
+.banner img{
+    width:100%;
+    display:block;
+    border-radius:20px;
+}
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:15px 0;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+}
